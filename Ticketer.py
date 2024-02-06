@@ -1,32 +1,3 @@
-"""
-Problem Statement:
-Remember: Please use OOPS principle while coming up with the solution for the problem.
-
-Please write a program to build ticketing software for a Zoo. It should have following feature:
-
-1. When the guests arrive at the entrance gate, the person at the ticketing counter should input the number of guests
-and age of each guest. The pricing depend on the age as follows:
-
-If age <= 2 years, entrance price is INR 0.
-If age > 2 and < 18 years, entrance price is INR 100.
-If age >= 18 and < 60 years, entrance price is INR 500.
-If age >= 60 years, entrance price is INR 300.
-
-Your software should issue an entrance ticket and display the total charges on the ticket based on the number of guests
-and their age.
-
-2. Before entering the Zoo, the security personnel should be able to validate the ticket i.e. they should be able to see
-the guests and their age associated with the ticket and manually verify the guests who are trying to enter the Zoo.
-
-Your software should be able to take an issued ticket and display ticket details (a line for each guest on the ticket -
-person, age) so security personnel can confirm the guests before letting them enter the Zoo. Ex: If a ticket was issued
-for 2 guest (age 23 and 25), it should display:
-
-Guest 1 (age: 23)
-Guest 2 (age: 25)
-
-
-"""
 
 
 # Imports:
